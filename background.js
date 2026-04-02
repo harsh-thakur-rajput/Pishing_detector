@@ -3,7 +3,7 @@
 
 // Google Safe Browsing API key
 const API_KEY = 'Paste safe browisng Api key';
-const SAFE_BROWSING_API_URL = 'https://safebrowsing.googleapis.com/v4/threatMatches:find';
+const SAFE_BROWSING_API_URL = 'Paste url here';
 
 // Store current tab safety status
 let tabSafetyStatus = new Map();
