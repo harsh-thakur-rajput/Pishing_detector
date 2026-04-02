@@ -48,7 +48,7 @@ async function checkUrlSafety(url, tabId) {
     
     console.log('Using API key:', apiKey ? 'Configured' : 'Not configured');
     
-    if (!apiKey || apiKey === 'YOUR_GOOGLE_SAFE_BROWSING_API_KEY_HERE') {
+    if (!apiKey || apiKey.includes('Paste')) {
       console.warn('Please configure your Google Safe Browsing API key');
       // Set unknown status when API key is not configured
       tabSafetyStatus.set(tabId, {
